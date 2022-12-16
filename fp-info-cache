@@ -1,4 +1,4 @@
-20196227857612538
+20199633980966450
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85414,6 +85414,13 @@ capacitor electrolyic nonpolar
 2
 2
 spdf1626_lib
+C_THT_D10.0mm_P5.00mm
+CP, Radial series, Radial, pin pitch=5.00mm, , diameter=10mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 5.00mm  diameter 10mm Electrolytic Capacitor
+0
+2
+2
+spdf1626_lib
 C_THT_K73-17_P5.00mm
 C, Rect series, Radial, pin pitch=5.00mm, , length*width=7.2*3.0mm^2, Capacitor, http://www.wima.com/EN/WIMA_FKS_2.pdf
 C Rect series Radial pin pitch 5.00mm  length 7.2mm width 3.0mm Capacitor
@@ -85714,6 +85721,13 @@ Postav_chip!
 0
 0
 0
+spdf1626_lib
+Potentiometer_THT_CA9V
+Potentiometer, vertical, ACP CA9-V10, http://www.acptechnologies.com/wp-content/uploads/2017/05/02-ACP-CA9-CE9.pdf
+Potentiometer vertical ACP CA9-V10
+0
+3
+3
 spdf1626_lib
 RD624
 
