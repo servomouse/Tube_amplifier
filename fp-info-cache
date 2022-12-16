@@ -1,4 +1,4 @@
-20199633980966450
+20201305176310533
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85476,6 +85476,13 @@ DFN-4(1.5x1.5mm)
 0
 4
 4
+spdf1626_lib
+D_DO-41
+Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=12.7mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf
+Diode DO-41_SOD81 series Axial Horizontal pin pitch 12.7mm  length 5.2mm diameter 2.7mm
+0
+2
+2
 spdf1626_lib
 D_SMA
 Diode SMA (DO-214AC)
