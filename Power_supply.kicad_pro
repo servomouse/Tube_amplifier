@@ -45,16 +45,10 @@
         "silk_text_upright": false,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 1.0
+          "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
-      ],
+      "diff_pair_dimensions": [],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -118,15 +112,8 @@
         "solder_mask_min_width": 0.0,
         "use_height_for_length_calcs": true
       },
-      "track_widths": [
-        0.0
-      ],
-      "via_dimensions": [
-        {
-          "diameter": 0.0,
-          "drill": 0.0
-        }
-      ],
+      "track_widths": [],
+      "via_dimensions": [],
       "zones_allow_external_fillets": false,
       "zones_use_no_outline": true
     },
@@ -346,14 +333,14 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Tube_amplifier.kicad_pro",
+    "filename": "Power_supply.kicad_pro",
     "version": 1
   },
   "net_settings": {
     "classes": [
       {
         "bus_width": 12.0,
-        "clearance": 0.4,
+        "clearance": 0.2,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -363,7 +350,7 @@
         "name": "Default",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.5,
+        "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6.0
@@ -380,7 +367,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "3d models/Power_supply.step",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -425,28 +412,8 @@
   },
   "sheets": [
     [
-      "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
+      "99599d74-5b2c-4467-84e8-6fe347ba3aeb",
       ""
-    ],
-    [
-      "7bfc5153-120c-4e47-be10-e6627f13ccb7",
-      "Power_supply"
-    ],
-    [
-      "981acc3a-ce09-4f19-b29a-5ef9eeed6db4",
-      "Amplifier"
-    ],
-    [
-      "06e05fca-ab6f-488d-8209-16120186735b",
-      "Indication_board"
-    ],
-    [
-      "d7160100-a733-4250-b59c-9852bf120a6c",
-      "Front_connectors"
-    ],
-    [
-      "a1aee564-e36a-4ade-9533-79c459f5a0d5",
-      "Back_connectors"
     ]
   ],
   "text_variables": {}
