@@ -543,9 +543,6 @@
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/6997e49d-598a-499f-a969-87c6d78ee374"
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/18b770dc-28cc-4a8f-a017-c303931d7c49"
-      (reference "#PWR0101") (unit 1) (value "GND") (footprint "")
-    )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/cac9add8-7e11-41d7-b5dc-f00d79bea5c0"
       (reference "C1") (unit 1) (value "33n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
     )
@@ -588,14 +585,14 @@
     (path "/06e05fca-ab6f-488d-8209-16120186735b/e6eef33c-3006-49a5-8c2c-c1e14bdf2601"
       (reference "C14") (unit 1) (value "6800pF") (footprint "spdf1626_lib:C_THT_K73-17_P5.00mm")
     )
+    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/b4891b91-fcc8-4c2d-a115-d8b03c487b34"
+      (reference "C15") (unit 1) (value "10uF") (footprint "spdf1626_lib:C_THT_D10.0mm_P5.00mm")
+    )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/5d968c0b-27b9-4fe9-9728-a935b5d5967c"
       (reference "C24") (unit 1) (value "100n") (footprint "spdf1626_lib:C_THT_K73-17_P9.00mm")
     )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/0c1be322-9e3d-42af-9d12-39870470266c"
       (reference "C25") (unit 1) (value "3300uF_10V") (footprint "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm")
-    )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/6bc9c21c-81f3-4630-aa38-c5ff87161490"
-      (reference "C26") (unit 1) (value "100n") (footprint "spdf1626_lib:C_THT_K73-17_P9.00mm")
     )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/86fc3bd4-8f9e-4006-8a25-85c1a75dc525"
       (reference "C27") (unit 1) (value "100n") (footprint "spdf1626_lib:C_THT_K73-17_P9.00mm")
@@ -620,6 +617,9 @@
     )
     (path "/06e05fca-ab6f-488d-8209-16120186735b/5e202858-6ab2-474f-89a1-946b929671f1"
       (reference "D2") (unit 1) (value "1n4007") (footprint "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal")
+    )
+    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/804b4498-d855-44e0-81fb-3d1f259fd670"
+      (reference "D3") (unit 1) (value "1N4740A") (footprint "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal")
     )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/c4bf15e6-a39f-4dc9-8671-f324c564a467"
       (reference "D12") (unit 1) (value "1n4007") (footprint "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal")
@@ -726,20 +726,11 @@
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/97b9bd9e-bbde-495e-9479-5712e7e9b1fe"
       (reference "NE4") (unit 1) (value "Anodes_OK") (footprint "spdf1626_lib:PinHeader_1x02_P2.54mm")
     )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/d8ad3443-92c8-4b8e-8bf9-36840d138308"
-      (reference "Q7") (unit 1) (value "MPSA42") (footprint "Package_TO_SOT_THT:TO-92_Inline")
-    )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/116e3907-73ee-42bc-94c7-043f04d4fdaf"
-      (reference "Q8") (unit 1) (value "MPSA42") (footprint "Package_TO_SOT_THT:TO-92_Inline")
-    )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/87747797-b9a2-4dbb-b7e3-0d1061e706f4"
-      (reference "Q9") (unit 1) (value "MPSA42") (footprint "Package_TO_SOT_THT:TO-92_Inline")
-    )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/94e8ccf2-5f87-4fce-b43e-1835c4a6e85d"
       (reference "Q10") (unit 1) (value "MPSA42") (footprint "Package_TO_SOT_THT:TO-92_Inline")
     )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/1f28c394-5583-4c54-aeca-6f975fc7fa47"
-      (reference "Q11") (unit 1) (value "MJE13003") (footprint "Package_TO_SOT_THT:TO-126-3_Vertical")
+    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/30d408b7-6af3-4a56-9ac7-f437419bd0d5"
+      (reference "Q11") (unit 1) (value "STP4NK60ZFP(MJE13003)") (footprint "Package_TO_SOT_THT:TO-220-3_Vertical")
     )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/671e6eb7-fa05-4f91-b6c4-a9fb84d7ecfa"
       (reference "Q12") (unit 1) (value "2N3904") (footprint "Package_TO_SOT_THT:TO-92_Inline")
@@ -786,6 +777,9 @@
     (path "/06e05fca-ab6f-488d-8209-16120186735b/a1f5db78-9424-4df8-8681-d2a8b746ce34"
       (reference "R14") (unit 1) (value "1M") (footprint "spdf1626_lib:R_THT_025W")
     )
+    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/8cd25ee3-6efc-4664-85aa-32dca2217aa0"
+      (reference "R15") (unit 1) (value "100R") (footprint "spdf1626_lib:R_THT_1W")
+    )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/a6d39837-c4e7-4747-ae63-fb35e57de33a"
       (reference "R26") (unit 1) (value "100R") (footprint "spdf1626_lib:R_THT_1W")
     )
@@ -797,9 +791,6 @@
     )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/fb58d4b5-25d0-4e58-90c8-386ae2a9d565"
       (reference "R29") (unit 1) (value "10k") (footprint "spdf1626_lib:R_THT_025W")
-    )
-    (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/fc189858-fd39-4ebc-9b7b-5a41b8face8c"
-      (reference "R30") (unit 1) (value "600R") (footprint "spdf1626_lib:R_THT_025W")
     )
     (path "/7bfc5153-120c-4e47-be10-e6627f13ccb7/73d61cf9-13d9-4807-af8c-d678416aa6df"
       (reference "R31") (unit 1) (value "100k") (footprint "spdf1626_lib:R_THT_025W")

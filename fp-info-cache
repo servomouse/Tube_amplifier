@@ -1,4 +1,4 @@
-20224723628644978
+20226399360815334
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -86026,6 +86026,13 @@ spdf1626_lib
 TO-92_Wide
 TO-92 leads in-line, wide, drill 0.75mm (see NXP sot054_po.pdf)
 to-92 sc-43 sc-43a sot54 PA33 transistor
+0
+3
+3
+spdf1626_lib
+TO-220-3_Vertical
+TO-220-3, Vertical, RM 2.54mm, see https://www.vishay.com/docs/66542/to-220-1.pdf
+TO-220-3 Vertical RM 2.54mm
 0
 3
 3
