@@ -1,4 +1,4 @@
-20228090364788792
+20231439374181681
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85568,6 +85568,13 @@ SOD-323
 2
 2
 spdf1626_lib
+D_THT_DO-35_SOD27_Horizontal
+Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf
+Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm
+0
+2
+2
+spdf1626_lib
 Display_RW1092
 
 
@@ -85889,6 +85896,13 @@ Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W le
 0
 2
 2
+spdf1626_lib
+Relay_THT_SRD_Series
+relay Sanyou SRD series Form C http://www.sanyourelay.ca/public/products/pdf/SRD.pdf
+relay Sanyu SRD form C
+0
+5
+5
 spdf1626_lib
 SDR0805
 Inductor,TDK, TDK-VLP-8040, 8.6mmx8.6mm
