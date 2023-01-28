@@ -1,1 +1,1 @@
-# Tube_amplifier
+Not that i am a fan of a high quality music, rather I love vacuum tubes and want to build something out of them. So, here it is: my vacuum tube headphone amplifier (but actually it can output up to 2 watts per channel). It is not finished yet, so the schematic may change during the experiments
