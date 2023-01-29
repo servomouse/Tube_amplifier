@@ -3173,7 +3173,7 @@
     (uuid cac9add8-7e11-41d7-b5dc-f00d79bea5c0)
     (property "Reference" "C1" (id 0) (at 134.62 48.26 0))
     (property "Value" "33n" (id 1) (at 134.62 50.8 0))
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 140.6652 45.72 0)
+    (property "Footprint" "spdf1626_lib:C_THT_K73-17_P7.00mm" (id 2) (at 140.6652 45.72 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 139.7 49.53 0)
@@ -3405,7 +3405,7 @@
       (reference "#PWR048") (unit 1) (value "GND") (footprint "")
     )
     (path "/cac9add8-7e11-41d7-b5dc-f00d79bea5c0"
-      (reference "C1") (unit 1) (value "33n") (footprint "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2")
+      (reference "C1") (unit 1) (value "33n") (footprint "spdf1626_lib:C_THT_K73-17_P7.00mm")
     )
     (path "/b4891b91-fcc8-4c2d-a115-d8b03c487b34"
       (reference "C2") (unit 1) (value "10uF") (footprint "spdf1626_lib:C_THT_D10.0mm_P5.00mm")
