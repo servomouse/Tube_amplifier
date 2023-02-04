@@ -1,4 +1,4 @@
-20231444473889713
+20234795166847932
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85428,6 +85428,13 @@ CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
 2
 2
 spdf1626_lib
+C_THT_D5.0mm_P2.5mm
+CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
+CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
+0
+2
+2
+spdf1626_lib
 C_THT_D5.0mm_P2.54mm
 CP, Radial series, Radial, pin pitch=2.00mm, , diameter=5mm, Electrolytic Capacitor
 CP Radial series Radial pin pitch 2.00mm  diameter 5mm Electrolytic Capacitor
@@ -85763,6 +85770,13 @@ PWSON (6-pin)
 0
 7
 7
+spdf1626_lib
+PinHeader_1x01_P2.54mm_Vertical
+Through hole straight pin header, 1x01, 2.54mm pitch, single row
+Through hole pin header THT 1x01 2.54mm single row
+0
+1
+1
 spdf1626_lib
 PinHeader_1x02_P2.54mm
 Through hole straight pin header, 1x02, 2.54mm pitch, single row

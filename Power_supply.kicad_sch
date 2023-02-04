@@ -3360,11 +3360,33 @@
     (pin "1" (uuid eff839cd-21c2-4eea-a90f-98b672a266d0))
   )
 
+  (sheet (at 201.93 125.73) (size 35.56 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid) (color 0 0 0 0))
+    (fill (color 0 0 0 0.0000))
+    (uuid 58eb1f49-1e5e-4c0c-97da-fb971f13fe25)
+    (property "Sheet name" "Vacuum tube full bridge rectifier" (id 0) (at 201.93 125.0184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheet file" "vt_fb_rectifier.kicad_sch" (id 1) (at 201.93 158.0646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+  )
+
   (sheet_instances
     (path "/" (page "1"))
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25" (page "2"))
   )
 
   (symbol_instances
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/077354f1-7c81-4092-8cfb-a482b097f5c7"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/bc09f5b8-bc0c-4159-a6f9-b40027ff6da2"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/9dc2ce14-766a-4107-9077-4b8e406cbd7f"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
     (path "/2fbad06e-061a-4b4a-bc03-c6c3d3c6ed04"
       (reference "#PWR021") (unit 1) (value "+6V") (footprint "")
     )
@@ -3470,6 +3492,21 @@
     (path "/89eb53b6-25fe-457e-a572-f0e2d20095e1"
       (reference "J1") (unit 1) (value "Transformers") (footprint "spdf1626_lib:Connector_1x02_P5mm_Vertical")
     )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/ed741df9-51b8-4ca6-86fc-56edf0e7ec8b"
+      (reference "J2") (unit 1) (value "IN1") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/a011776d-c403-4b22-9599-3ef343cb1830"
+      (reference "J3") (unit 1) (value "6V") (footprint "spdf1626_lib:PinHeader_1x02_P2.54mm")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/4a583b03-7ba0-42d6-ac20-d9bd4ec5453d"
+      (reference "J4") (unit 1) (value "Vout") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/8c6970c9-8528-4787-b893-5feacb6e1304"
+      (reference "J5") (unit 1) (value "IN2") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/4f02c821-edb1-4384-9005-d5946c59583d"
+      (reference "J6") (unit 1) (value "GND") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical")
+    )
     (path "/460894e8-d679-4399-be51-a7c0384c5016"
       (reference "J20") (unit 1) (value "HV_Transformer") (footprint "spdf1626_lib:PinHeader_1x02_P2.54mm")
     )
@@ -3553,6 +3590,12 @@
     )
     (path "/f8f4f905-7719-49e2-bb1f-e5ce5b747f23"
       (reference "RV3") (unit 1) (value "10k") (footprint "spdf1626_lib:Potentiometer_THT_CA9V")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/d0ef9572-f9f1-402b-82aa-afe53ec77b54"
+      (reference "U1") (unit 1) (value "6H2P") (footprint "spdf1626_lib:7-pin_tube_socket")
+    )
+    (path "/58eb1f49-1e5e-4c0c-97da-fb971f13fe25/6e1c18b9-3fea-4204-afc6-38aaff3cd6af"
+      (reference "U2") (unit 1) (value "6H2P") (footprint "spdf1626_lib:7-pin_tube_socket")
     )
     (path "/57185388-68b8-4c59-8c2f-5b036b0f2170"
       (reference "U4") (unit 1) (value "SG2P") (footprint "spdf1626_lib:7-pin_tube_socket")

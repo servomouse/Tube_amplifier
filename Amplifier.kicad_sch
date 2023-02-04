@@ -1561,7 +1561,7 @@
     (uuid 42ef9186-4184-4466-b743-ee5971dcf03c)
     (property "Reference" "C7" (id 0) (at 127 104.14 90))
     (property "Value" "33n" (id 1) (at 127 106.68 90))
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 132.08 111.4552 0)
+    (property "Footprint" "spdf1626_lib:C_THT_K73-17_P7.00mm" (id 2) (at 132.08 111.4552 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 128.27 110.49 0)
@@ -1576,7 +1576,7 @@
     (uuid 449c9898-71f5-47a5-bc1c-95f5c5e04a52)
     (property "Reference" "C6" (id 0) (at 127 80.01 90))
     (property "Value" "33n opt" (id 1) (at 127 77.47 90))
-    (property "Footprint" "Capacitor_THT:C_Rect_L7.2mm_W3.0mm_P5.00mm_FKS2_FKP2_MKS2_MKP2" (id 2) (at 132.08 72.6948 0)
+    (property "Footprint" "spdf1626_lib:C_THT_K73-17_P7.00mm" (id 2) (at 132.08 72.6948 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 128.27 73.66 0)
@@ -1742,7 +1742,7 @@
     (property "Value" "10uF" (id 1) (at 182.88 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (id 2) (at 180.0352 57.15 0)
+    (property "Footprint" "spdf1626_lib:C_THT_D5.0mm_P2.54mm" (id 2) (at 180.0352 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 179.07 53.34 0)
@@ -1881,7 +1881,7 @@
     (property "Value" "10uF" (id 1) (at 194.31 54.6099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm" (id 2) (at 191.4652 57.15 0)
+    (property "Footprint" "spdf1626_lib:C_THT_D5.0mm_P2.54mm" (id 2) (at 191.4652 57.15 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 190.5 53.34 0)
@@ -1962,7 +1962,7 @@
     (pin "1" (uuid 1d555264-8e46-4a2a-9525-55c1f844732d))
   )
 
-  (symbol (lib_id "Device:R_Potentiometer") (at 135.89 118.11 0) (unit 1)
+  (symbol (lib_id "Device:R_Potentiometer") (at 135.89 118.11 0) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ae3ecd0c-cf09-4e21-bebe-5c96905c14b0)
     (property "Reference" "RV1" (id 0) (at 133.35 116.8399 0)
@@ -2164,5 +2164,138 @@
     )
     (pin "1" (uuid 0aad3e57-384f-415d-a0b4-8c055a548a34))
     (pin "2" (uuid 7a5ef3c0-71d0-4f2c-848e-9a825cc696ea))
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/7d354e65-c937-4b8d-b990-6e217875a5de"
+      (reference "#PWR01") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ab08fae4-ea99-4f34-b35f-30bf8021c06c"
+      (reference "#PWR02") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/7e3d583d-62e1-4605-9dc6-eb3de477f996"
+      (reference "#PWR03") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/3cd04640-8481-49c0-8bbd-54748a44f75a"
+      (reference "#PWR04") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/98ee1497-597e-4d9e-9132-87a133f2a09f"
+      (reference "#PWR05") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/81f52771-8a53-4346-bb7f-a78b76ca4610"
+      (reference "#PWR06") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/96d9451e-589a-4a1e-ba29-92a8936115b0"
+      (reference "#PWR07") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/5b2b1ce9-93e8-42a4-8559-904140854f90"
+      (reference "#PWR08") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/38cf8442-d772-418c-8ff7-8770aea5510f"
+      (reference "#PWR09") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/26756bad-7f8e-4771-8d83-1b031173000d"
+      (reference "#PWR010") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/ee8a1838-4bfe-42c4-9035-0143c23875e3"
+      (reference "#PWR011") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/febfe4f1-2973-49da-883e-4d951957227e"
+      (reference "#PWR012") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/4bf0dee3-3a1e-4215-a58b-115fac657302"
+      (reference "#PWR013") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/ca133b91-1921-458a-8ce5-d49e060f9811"
+      (reference "#PWR014") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/826af9cc-568a-4736-b3fe-abd787b69b20"
+      (reference "#PWR015") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/8d172b20-b1ee-4fbd-8ac9-b046d96cbd61"
+      (reference "#PWR016") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/f1acec99-e5fd-4667-b36f-d7e14eeea182"
+      (reference "C2") (unit 1) (value "100n") (footprint "spdf1626_lib:C_THT_K73-17_P9.00mm")
+    )
+    (path "/f671337d-0862-4107-b7ac-3d710e374714"
+      (reference "C3") (unit 1) (value "1n") (footprint "spdf1626_lib:C_THT_K73-17_P5.00mm")
+    )
+    (path "/60a6b14b-e979-43aa-815a-7d25c2bc9385"
+      (reference "C4") (unit 1) (value "10uF") (footprint "spdf1626_lib:C_THT_D10.0mm_P5.00mm")
+    )
+    (path "/4b7b5fb2-6349-4007-ba90-c3ac2e2c6584"
+      (reference "C5") (unit 1) (value "100n") (footprint "spdf1626_lib:C_THT_K73-17_P9.00mm")
+    )
+    (path "/449c9898-71f5-47a5-bc1c-95f5c5e04a52"
+      (reference "C6") (unit 1) (value "33n opt") (footprint "spdf1626_lib:C_THT_K73-17_P7.00mm")
+    )
+    (path "/42ef9186-4184-4466-b743-ee5971dcf03c"
+      (reference "C7") (unit 1) (value "33n") (footprint "spdf1626_lib:C_THT_K73-17_P7.00mm")
+    )
+    (path "/f91c3ef0-e986-4110-b1f4-2b0562b8580a"
+      (reference "C8") (unit 1) (value "10uF") (footprint "spdf1626_lib:C_THT_D10.0mm_P5.00mm")
+    )
+    (path "/68e0188b-48a6-4a9c-b99a-2eedbba297c5"
+      (reference "C9") (unit 1) (value "10uF") (footprint "spdf1626_lib:C_THT_D5.0mm_P2.54mm")
+    )
+    (path "/95fee9cb-3e70-47a8-92fa-234d16b7b1f8"
+      (reference "C10") (unit 1) (value "10uF") (footprint "spdf1626_lib:C_THT_D5.0mm_P2.54mm")
+    )
+    (path "/f32711b0-8890-487d-94d6-c1716e399909"
+      (reference "J1") (unit 1) (value "Input") (footprint "spdf1626_lib:PinHeader_1x02_P2.54mm")
+    )
+    (path "/4fce7e63-e341-4b44-a9d1-300f40523c0b"
+      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "spdf1626_lib:PinHeader_1x04_P2.54mm")
+    )
+    (path "/ffec4411-a16b-4d16-b464-4f2a70d85e6e"
+      (reference "J3") (unit 1) (value "output") (footprint "spdf1626_lib:PinHeader_1x02_P2.54mm")
+    )
+    (path "/d65b55e5-95fa-499a-a3b7-061e47ad87ef"
+      (reference "R1") (unit 1) (value "300k") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/7f2e2995-3c2f-40af-9329-1944979bc940"
+      (reference "R2") (unit 1) (value "200R") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/2f22f7f4-6d56-45f4-ae15-bf2406f9ea65"
+      (reference "R3") (unit 1) (value "1k8") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/455c7ae2-abcf-4660-9c0f-f321d087ff4b"
+      (reference "R4") (unit 1) (value "220k opt") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/98fb5eca-9e6c-44e3-8a7b-0b480d935f00"
+      (reference "R5") (unit 1) (value "680R") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/0e76d439-f46c-427c-8210-4ea36a5ac58f"
+      (reference "R6") (unit 1) (value "300k") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/b6b53ef3-dbf2-4a41-8117-119e97e62d98"
+      (reference "R7") (unit 1) (value "200R") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/0e932ddd-4c58-4362-9fa3-dc371042746a"
+      (reference "R8") (unit 1) (value "1k8") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/e245ac41-1fa2-432f-a1cb-9c74b374dfc2"
+      (reference "R9") (unit 1) (value "6k8") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/4f6647a6-5733-446e-b069-0fe4ef4b4964"
+      (reference "R10") (unit 1) (value "220R*") (footprint "spdf1626_lib:R_THT_1W")
+    )
+    (path "/ae3ecd0c-cf09-4e21-bebe-5c96905c14b0"
+      (reference "RV1") (unit 1) (value "100k") (footprint "spdf1626_lib:Potentiometer_THT_CA9V")
+    )
+    (path "/57e9c211-456f-4120-9b3a-03f62ecda79d"
+      (reference "T1") (unit 1) (value "Transformer_SP_1S") (footprint "spdf1626_lib:Output_transformer")
+    )
+    (path "/3b4b5ffe-6bc0-419a-87c0-3add445964f4"
+      (reference "U1") (unit 1) (value "6N2P") (footprint "spdf1626_lib:9-pin_tube_socket")
+    )
+    (path "/7fdc7ecf-516c-4b8a-829e-19c8463e595a"
+      (reference "U2") (unit 1) (value "6P14P") (footprint "spdf1626_lib:9-pin_tube_socket")
+    )
   )
 )
