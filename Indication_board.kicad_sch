@@ -1382,4 +1382,80 @@
     )
     (pin "1" (uuid e022743c-b168-4dbf-aeb3-4ca381e0a058))
   )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+
+  (symbol_instances
+    (path "/c304b2dd-0502-4505-80fb-6245acabca8f"
+      (reference "#PWR017") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/de000b87-9536-41e9-8b8e-6f839f71c3fe"
+      (reference "#PWR018") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/4c224974-93fa-4312-9446-58a149915b7b"
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/036a478d-a6e1-490c-9361-fa0542ea4666"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/9697eae5-9262-41a9-a440-852e2ade703c"
+      (reference "#PWR023") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/14979309-f437-44eb-a1e4-289d22a50dd0"
+      (reference "#PWR024") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/f86bd3f9-ef81-4fd5-8bda-f6dcf14e4763"
+      (reference "#PWR025") (unit 1) (value "+6V") (footprint "")
+    )
+    (path "/1901c108-9931-4bce-b7af-bd87dbd9d595"
+      (reference "C11") (unit 1) (value "6800pF") (footprint "spdf1626_lib:C_THT_K73-17_P5.00mm")
+    )
+    (path "/2fd74e19-523f-4912-b19f-bf328923e874"
+      (reference "C12") (unit 1) (value "6800pF") (footprint "spdf1626_lib:C_THT_K73-17_P5.00mm")
+    )
+    (path "/cf370025-1b91-43a6-bae2-5da49167471a"
+      (reference "C13") (unit 1) (value "6800pF") (footprint "spdf1626_lib:C_THT_K73-17_P5.00mm")
+    )
+    (path "/e6eef33c-3006-49a5-8c2c-c1e14bdf2601"
+      (reference "C14") (unit 1) (value "6800pF") (footprint "spdf1626_lib:C_THT_K73-17_P5.00mm")
+    )
+    (path "/ab1c5a55-ae6c-401f-a434-00154e6755cf"
+      (reference "D1") (unit 1) (value "1n4007") (footprint "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal")
+    )
+    (path "/5e202858-6ab2-474f-89a1-946b929671f1"
+      (reference "D2") (unit 1) (value "1n4007") (footprint "Diode_THT:D_DO-41_SOD81_P12.70mm_Horizontal")
+    )
+    (path "/25e772bb-cace-40d5-b9ad-b595d9faf56e"
+      (reference "J4") (unit 1) (value "Indication") (footprint "spdf1626_lib:PinHeader_1x03_P2.54mm")
+    )
+    (path "/0e626e50-041e-4b70-9c5a-f681fb7e0bbb"
+      (reference "J5") (unit 1) (value "Conn_01x04") (footprint "spdf1626_lib:PinHeader_1x04_P2.54mm")
+    )
+    (path "/0826aef8-703b-464c-a614-13910582ec59"
+      (reference "R11") (unit 1) (value "1M") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/197ccd15-2aab-48cd-ab51-417c4b9bc3e5"
+      (reference "R12") (unit 1) (value "1M") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/f66902d0-3fed-429f-b11c-69b3695c2015"
+      (reference "R13") (unit 1) (value "1M") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/a1f5db78-9424-4df8-8681-d2a8b746ce34"
+      (reference "R14") (unit 1) (value "1M") (footprint "spdf1626_lib:R_THT_025W")
+    )
+    (path "/e5f4f66a-5417-450d-8a74-fa04716d9365"
+      (reference "RV2") (unit 1) (value "470k") (footprint "spdf1626_lib:Potentiometer_THT_CA9V")
+    )
+    (path "/9812bfab-3466-4b28-980d-e2b314ac93a8"
+      (reference "RV4") (unit 1) (value "470k") (footprint "spdf1626_lib:Potentiometer_THT_CA9V")
+    )
+    (path "/c4e227a8-aa68-4ad0-a12b-50a6e686349a"
+      (reference "U3") (unit 1) (value "6E1P") (footprint "spdf1626_lib:9-pin_tube_socket")
+    )
+    (path "/2bb70aa0-77b9-494c-ae61-5b911c8f130d"
+      (reference "U5") (unit 1) (value "6E1P") (footprint "spdf1626_lib:9-pin_tube_socket")
+    )
+  )
 )
