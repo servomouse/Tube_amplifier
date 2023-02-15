@@ -1,4 +1,4 @@
-195153366483397
+196829857326029
 spdf1626_lib
 5mm_PogoPin_Holder
 Through hole straight pin header, 1x01, 2.54mm pitch, single row
@@ -15,6 +15,13 @@ spdf1626_lib
 7
 spdf1626_lib
 9-pin_tube_socket
+
+
+0
+9
+9
+spdf1626_lib
+9-pin_tube_socket(PL9-3P)
 
 
 0
