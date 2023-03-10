@@ -1,4 +1,4 @@
-20246581729425206
+20248260205109207
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -85756,6 +85756,13 @@ phoenix_contact connector MCV_01x04_G_3.5mm
 0
 4
 4
+spdf1626_lib
+MCV_1,5_4-G-5.0_1x02_P5.0mm_Vertical
+Generic Phoenix Contact connector footprint for: MCV_1,5/4-G-3.5; number of pins: 04; pin pitch: 3.50mm; Vertical || order number: 1843622 8A 160V
+phoenix_contact connector MCV_01x04_G_3.5mm
+0
+2
+2
 spdf1626_lib
 MCV_1,5_4-G-5.0_1x03_P5.0mm_Vertical
 Generic Phoenix Contact connector footprint for: MCV_1,5/4-G-3.5; number of pins: 04; pin pitch: 3.50mm; Vertical || order number: 1843622 8A 160V
